@@ -1,1 +1,30 @@
+title: "Football Player Analytics"
+description: "Insights and visualizations on football players, with a focus on goalkeepers."
+baseurl: "" # leave empty unless site is in a subfolder
+url: "https://yourusername.github.io" # replace with your GitHub username
 
+# Theme (simple & clean)
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Plugins (needed for remote themes)
+plugins:
+  - jekyll-remote-theme
+
+# Navigation (optional custom links in header)
+nav:
+  - name: "Home"
+    link: /
+  - name: "Goalkeeper Insights"
+    link: /goalkeepers
+  - name: "Player Comparisons"
+    link: /comparisons
+  - name: "About"
+    link: /about
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
